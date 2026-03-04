@@ -1,0 +1,7 @@
+try:
+    sayi=int(input("bir sayi giriniz"))
+    print(10/sayi)
+except ValueError:
+    print("lütfen sayi giriniz")
+except ZeroDivisionError:
+    print("0'a bölünmez")

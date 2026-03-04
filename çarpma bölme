@@ -1,0 +1,14 @@
+sayi1=float(input("sayi giriniz"))
+sayi2=float(input("diğer sayiyi giriniz"))
+print("1 carpma")
+print("2 bolme")
+secim=input("seciminizi girin 1/2")
+if secim=='1':
+    print("sonuc",sayi1*sayi2)
+elif secim=='2':
+    if sayi2==0:
+        print("sayi sıfıra bölünemez")
+    else:
+        print("sonuc",sayi1/sayi2)
+else:
+    print("geçersiz secim")

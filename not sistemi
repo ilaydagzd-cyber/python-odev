@@ -1,0 +1,14 @@
+notu=float(input("not giriniz:"))
+
+if 0<=notu and notu<49:
+    print("kaldınız")
+elif 50<=notu and notu<60:
+    print("şartlı geçtiniz")
+elif 60<=notu and notu<70:
+    print("cb ile geçtiniz")
+elif 70<=notu and notu<80:
+    print("ba ile geçtiniz")
+elif 90<=notu and notu<=100:
+    print("aa ile geçtiniz") 
+else:
+    print("geçersiz not") 

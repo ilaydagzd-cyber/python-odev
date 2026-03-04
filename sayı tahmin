@@ -1,0 +1,8 @@
+sayi=57
+tahmin=int(input("1 ile 100 arası sayi giriniz"))
+if sayi<tahmin:
+    print("daha küçük sayi tahmin ediniz")
+elif sayi>tahmin:
+    print("daha büyük sayi tahmin ediniz")
+else:
+    print("doğru tahmin")
